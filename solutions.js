@@ -6,13 +6,13 @@ function sum(a, b) {
 
 // Factorial of a Number
 function factorial(n) {
-  factorial = 1;
+  let nfactorial = 1;
 
   for (let i =1; i <= n; i++) {
-    factorial=factorial*i;
+    nfactorial=nfactorial*i;
   }
 
-  return factorial;
+  return nfactorial;
   // Add your code here
 }
 
